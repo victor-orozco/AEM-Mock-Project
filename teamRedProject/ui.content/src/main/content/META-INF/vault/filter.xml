@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/teamRedProject" mode="merge"/>
+    <filter root="/content/teamRedProject" mode="merge"/>
+    <filter root="/content/dam/teamRedProject/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/teamRedProject" mode="merge"/>
+</workspaceFilter>
