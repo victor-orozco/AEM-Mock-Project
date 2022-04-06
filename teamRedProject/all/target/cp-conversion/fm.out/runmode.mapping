@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Wed Apr 06 14:24:54 CST 2022
+author=teamRedProject.all-author.json
+publish=teamRedProject.all-publish.json
+(default)=teamRedProject.all.json
