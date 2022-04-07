@@ -1,0 +1,4 @@
+com\teamRedProject\it\tests\HtmlUnitClient.class
+com\teamRedProject\it\tests\CreatePageIT.class
+com\teamRedProject\it\tests\GetPageIT.class
+com\teamRedProject\it\tests\PublishPageValidationIT.class

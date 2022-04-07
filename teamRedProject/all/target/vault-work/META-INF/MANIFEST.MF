@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Team Red Mock Project - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.teamRedProject:teamRedProject.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for Team Red Mock Proje
+ ct
+Content-Package-Roots: /apps/teamRedProject-packages,/apps/teamRedProjec
+ t-vendor-packages
+

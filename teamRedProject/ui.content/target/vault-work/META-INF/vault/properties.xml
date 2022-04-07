@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Team Red Mock Project - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT=maven:com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT:zip</entry>
+<entry key="created">2022-04-07T15:16:22.537Z</entry>
+<entry key="groupId">com.teamRedProject</entry>
+<entry key="description">UI content package for Team Red Mock Project</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">teamRedProject.ui.content</entry>
+<entry key="artifactId">teamRedProject.ui.content</entry>
+<entry key="group">com.teamRedProject</entry>
+</properties>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Team Red Mock Project - UI apps
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAP
+ SHOT
+Content-Package-Description: UI apps package for Team Red Mock Project
+Content-Package-Roots: /apps/teamRedProject/clientlibs,/apps/teamRedProj
+ ect/components,/apps/teamRedProject/i18n
+Import-Package: com.teamRedProject.core.models;version="[1.0.0,2.0.0)",o
+ rg.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

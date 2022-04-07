@@ -1,0 +1,12 @@
+{
+  "id":"com.teamRedProject:teamRedProject.all:slingosgifeature:publish:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/teamRedProject/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.teamRedProject:teamRedProject.all:1.0.0-SNAPSHOT|com.teamRedProject:teamRedProject.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}
