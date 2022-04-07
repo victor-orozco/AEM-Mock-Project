@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.teamRedProject.core.filters.LoggingFilterTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.313 s - in com.teamRedProject.core.filters.LoggingFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.504 s - in com.teamRedProject.core.filters.LoggingFilterTest

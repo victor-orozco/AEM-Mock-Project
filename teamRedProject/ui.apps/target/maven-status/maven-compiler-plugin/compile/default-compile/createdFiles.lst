@@ -1,6 +1,7 @@
+org\apache\sling\scripting\sightly\apps\teamRedProject\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\teamRedProject\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\teamRedProject\components\page\body__002e__html.class
+org\apache\sling\scripting\sightly\apps\teamRedProject\components\page\customheaderlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\teamRedProject\components\page\customfooterlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\teamRedProject\components\helloworld\helloworld__002e__html.class
-org\apache\sling\scripting\sightly\apps\teamRedProject\components\xfpage\customfooterlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\teamRedProject\components\xfpage\content__002e__html.class
-org\apache\sling\scripting\sightly\apps\teamRedProject\components\xfpage\customheaderlibs__002e__html.class
-org\apache\sling\scripting\sightly\apps\teamRedProject\components\page\customheaderlibs__002e__html.class
