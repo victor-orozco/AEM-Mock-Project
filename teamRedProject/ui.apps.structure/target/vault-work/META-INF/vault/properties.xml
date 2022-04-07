@@ -4,7 +4,7 @@
 <comment>Team Red Mock Project - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-04-06T20:24:07.137Z</entry>
+<entry key="created">2022-04-07T16:38:54.558Z</entry>
 <entry key="groupId">com.teamRedProject</entry>
 <entry key="name">teamRedProject.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

@@ -53,7 +53,7 @@ out.write("\r\n\r\n\r\n");
     Object var_resourcecontent2 = renderContext.call("includeResource", "contexthub", obj().with("resourceType", "granite/contexthub/components/contexthub"));
     out.write(renderContext.getObjectModel().toString(var_resourcecontent2));
 }
-out.write("\r\n");
+out.write("\r\n\r\n<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\"/>\r\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------
