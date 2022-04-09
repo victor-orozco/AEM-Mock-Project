@@ -1,0 +1,7 @@
+com\teamRedProject\core\testcontext\AppAemContext.class
+com\teamRedProject\core\models\HelloWorldModelTest.class
+com\teamRedProject\core\testcontext\AppAemContext$1.class
+com\teamRedProject\core\filters\LoggingFilterTest.class
+com\teamRedProject\core\listeners\SimpleResourceListenerTest.class
+com\teamRedProject\core\schedulers\SimpleScheduledTaskTest.class
+com\teamRedProject\core\servlets\SimpleServletTest.class

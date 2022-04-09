@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/teamRedProject/clientlibs"/>
+    <filter root="/apps/teamRedProject/components"/>
+    <filter root="/apps/teamRedProject/i18n"/>
+</workspaceFilter>
