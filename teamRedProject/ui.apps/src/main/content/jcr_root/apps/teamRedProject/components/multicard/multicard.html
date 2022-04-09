@@ -1,0 +1,19 @@
+<sly data-sly-use.model="com.teamRedProject.core.models.MultiCardModel"></sly>
+<div class = "row cmp-resources__multicard-container"
+     data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.showComponent="${model.cards.listChildren}"
+     data-sly-list.item="${model.cards.listChildren}">
+    <div class="col-md-6">
+        <div class="cmp-resources__card">
+            <p class="cmp-resources__card-heading">${item.title}</p>
+            <p class="cmp-resources__card-text">${item.description}</p>
+            <div >
+                <a href="#one" class="btn btn-primary fw-bold cmp-resources__card-btn">${item.buttonPrimary}</a>
+            </div>
+            <div>
+                <a href="#two" class="cmp-resources__card-link">${item.buttonSecondary}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<sly data-sly-call="${commonsTemplates.placeholder @ isEmpty=!showComponent}"></sly>

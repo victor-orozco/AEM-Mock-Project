@@ -17,13 +17,13 @@ Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
  rsion="[1.29,2)",com.teamRedProject.core.filters;version="[1.0,2)",co
  m.teamRedProject.core.listeners;version="[1.0,2)",com.teamRedProject.
  core.schedulers;version="[1.0,2)",com.teamRedProject.core.servlets;ve
- rsion="[1.0,2)",javax.servlet;version="[3.0,4)",org.apache.sling.api;
- version="[2.3,3)",org.apache.sling.api.request;version="[2.5,3)",org.
- apache.sling.api.resource;version="[2.13,3)",org.apache.sling.api.res
- ource.observation;version="[1.2,2)",org.apache.sling.api.servlets;ver
- sion="[2.3,3)",org.apache.sling.models.annotations;version="[1.5,2)",
- org.apache.sling.models.annotations.injectorspecific;version="[1.1,2)
- ",org.slf4j;version="[1.7,2)"
+ rsion="[1.0,2)",javax.inject;version="[1.0,2)",javax.servlet;version=
+ "[3.0,4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api
+ .request;version="[2.4,3)",org.apache.sling.api.resource;version="[2.
+ 12,3)",org.apache.sling.api.resource.observation;version="[1.2,2)",or
+ g.apache.sling.api.servlets;version="[2.3,3)",org.apache.sling.models
+ .annotations;version="[1.5,2)",org.apache.sling.models.annotations.in
+ jectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
@@ -37,5 +37,7 @@ Service-Component: OSGI-INF/com.teamRedProject.core.filters.LoggingFil
  ter.xml,OSGI-INF/com.teamRedProject.core.listeners.SimpleResourceList
  ener.xml,OSGI-INF/com.teamRedProject.core.schedulers.SimpleScheduledT
  ask.xml,OSGI-INF/com.teamRedProject.core.servlets.SimpleServlet.xml
-Sling-Model-Classes: com.teamRedProject.core.models.HelloWorldModel
+Sling-Model-Classes: com.teamRedProject.core.models.HelloWorldModel,co
+ m.teamRedProject.core.models.MultiCardModel,com.teamRedProject.core.m
+ odels.NavigationListModel
 

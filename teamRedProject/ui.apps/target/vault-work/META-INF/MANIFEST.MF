@@ -9,6 +9,7 @@ Content-Package-Id: com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAP
 Content-Package-Description: UI apps package for Team Red Mock Project
 Content-Package-Roots: /apps/teamRedProject/clientlibs,/apps/teamRedProj
  ect/components,/apps/teamRedProject/i18n
-Import-Package: com.teamRedProject.core.models;version="[1.0.0,2.0.0)",o
- rg.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Import-Package: com.day.cq.wcm.foundation;version="[5.22.0,6.0.0)",com.t
+ eamRedProject.core.models;version="[1.0.0,2.0.0)",org.apache.sling.scri
+ pting.sightly;version="[2.0.0,3.0.0)"
 

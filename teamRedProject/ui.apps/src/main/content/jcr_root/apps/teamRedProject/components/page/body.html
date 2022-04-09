@@ -1,3 +1,22 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2016 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<sly data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
+     data-sly-repeat.child="${templatedContainer.structureResources}"
+     data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"></sly>
+
 <header class="cmp-header">
     <div class="cmp-header__main-nav">
         <div class="container">
@@ -13,7 +32,7 @@
         <nav class="navbar navbar-expand-lg navbar-light p-0">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./images/logo.svg" alt="Jolt" class="img-fluid cmp-header__logo">
+                    <img src="/content/dam/teamRedProject/logo.svg" alt="Jolt" class="img-fluid cmp-header__logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,27 +58,6 @@
     </div>
 </header>
 <main>
-    <section class="cmp-hero">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center cmp-hero__content" style="background-image: url(./images/hero.png);">
-                <p class="fw-bold cmp-hero__subtitle">Access Networking</p>
-                <h1 class="fw-bold cmp-hero__heading">Always-on, always-secure connectivity</h1>
-                <p class="cmp-hero__text">Bridge the gap between business and IT with intent-based networking.</p>
-            </div>
-        </div>
-    </section>
-    <section class="cmp-navigation">
-        <div class="cmp-navigation__content">
-            <div class="container">
-                <nav class="cmp-navigation__nav nav">
-                    <a class="nav-link fw-bold active" href="#overview">Overview</a>
-                    <a class="nav-link fw-bold" href="#resources">Resources</a>
-                    <a class="nav-link fw-bold" href="#models">Models</a>
-                    <a class="nav-link fw-bold" href="#catalog">Catalog</a>
-                </nav>
-            </div>
-        </div>
-    </section>
     <section class="cmp-overview" id="overview">
         <div class="container">
             <div class="row">
@@ -76,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="./images/router.png" alt="Router" class="img-fluid d-none d-md-block cmp-resources__image" />
+                    <img src="/content/dam/teamRedProject/router.png" alt="Router" class="img-fluid d-none d-md-block cmp-resources__image" />
                 </div>
                 <div class="col-md-8">
                     <h2 class="cmp-resources__heading">Headline, suggested 60 characters, Lorem ipsum dolor sit</h2>
@@ -127,7 +125,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="./images/person.png" alt="About Us" class="d-none d-md-block img-fluid cmp-models__image">
+                    <img src="/content/dam/teamRedProject/person.png" alt="About Us" class="d-none d-md-block img-fluid cmp-models__image">
                 </div>
                 <div class="col-md-8">
                     <h2 class="cmp-models__heading">Headline 50 characters max ipsum dolor sit amet </h2>
