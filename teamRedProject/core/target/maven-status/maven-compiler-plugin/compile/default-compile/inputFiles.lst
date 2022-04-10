@@ -1,10 +1,14 @@
-C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\servlets\package-info.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\HelloWorldModel.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\NavigationListModel.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\HeaderModel.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\filters\LoggingFilter.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\listeners\package-info.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\servlets\package-info.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\package-info.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\servlets\SimpleServlet.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\filters\package-info.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\listeners\SimpleResourceListener.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\schedulers\package-info.java
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\schedulers\SimpleScheduledTask.java
-C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\filters\LoggingFilter.java
-C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\listeners\package-info.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\FooterModel.java
+C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\core\src\main\java\com\teamRedProject\core\models\MultiCardModel.java

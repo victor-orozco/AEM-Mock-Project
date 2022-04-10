@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT=maven:com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2022-04-07T15:16:22.537Z</entry>
+<entry key="created">2022-04-10T04:15:48.429Z</entry>
 <entry key="groupId">com.teamRedProject</entry>
 <entry key="description">UI content package for Team Red Mock Project</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>

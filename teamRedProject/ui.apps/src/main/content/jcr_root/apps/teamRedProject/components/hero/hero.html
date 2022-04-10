@@ -1,0 +1,14 @@
+
+<section class="cmp-hero" data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html" id="header"
+         data-sly-test.hasContent="${properties.title || properties.description}">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center cmp-hero__content" style="background-image: url(${properties.fileReference  @ context='unsafe'});">
+            <p>${properties.file}</p>
+            <p class="fw-bold cmp-hero__subtitle">${properties.subtitle}</p>
+            <h1 class="fw-bold cmp-hero__heading">${properties.title}</h1>
+            <p class="cmp-hero__text">${properties.description}</p>
+            <button data-sly-test="${properties.button}" type="button" class="btn btn-primary cmp-quote__btn">${properties.button}</button>
+        </div>
+    </div>
+</section>
+<sly data-sly-call="${commonsTemplates.placeholder @ isEmpty = !hasContent}"></sly>

@@ -1,0 +1,57 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<sly data-sly-use.model="com.teamRedProject.core.models.HeaderModel"></sly>
+<header class="cmp-header"
+        data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+        data-sly-test.showComponent="${model.logoReference || model.primaryLinks.listChildren || model.secondaryLinks.listChildren}">
+    <div class="cmp-header__main-nav">
+        <div class="container">
+            <nav class="nav justify-content-end"
+                 data-sly-test="${model.primaryLinks.listChildren}"
+                 data-sly-list.item="${model.primaryLinks.listChildren}">
+                <a class="d-flex nav-link"
+                   aria-current="page"
+                   href="${item.url @ extension='html'}">
+                    <span class="cmp-header__icon-${item.icon}"
+                          data-sly-test="${item.icon}"></span>
+                    ${item.text}
+                </a>
+            </nav>
+        </div>
+    </div>
+    <div class="cmp-header__secondary-nav">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div class="container">
+                <a class="navbar-brand" href="${model.logoLink}">
+                    <img src="${model.logoReference}" alt="Jolt" class="img-fluid cmp-header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+                        data-sly-test="${model.secondaryLinks.listChildren}"
+                        data-sly-list.item="${model.secondaryLinks.listChildren}">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="${item.url @ extension='html'}">${item.text}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<sly data-sly-call="${template.placeholder @ isEmpty=!showComponent}"></sly>

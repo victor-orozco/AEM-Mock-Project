@@ -1,0 +1,14 @@
+<sly data-sly-use.model="com.teamRedProject.core.models.NavigationListModel"></sly>
+<section class="cmp-navigation"
+         data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html"
+         data-sly-test.hasContent="${model.navigations.listChildren}">
+    <div class="cmp-navigation__content">
+        <div class="container">
+            <nav class="cmp-navigation__nav nav"
+                 data-sly-list.item="${model.navigations.listChildren}">
+                <a class="nav-link fw-bold" href="#${item.link}">${item.title}</a>
+            </nav>
+        </div>
+    </div>
+</section>
+<sly data-sly-call="${commonsTemplates.placeholder @ isEmpty = !hasContent}"></sly>

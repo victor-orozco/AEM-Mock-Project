@@ -1,4 +1,4 @@
-# File created on Thu Apr 07 09:16:24 CST 2022 by the Apache Sling Content Package to Sling Feature converter
+# File created on Sat Apr 09 22:15:50 CST 2022 by the Apache Sling Content Package to Sling Feature converter
 # content-package path, content-package ID, content-package type, content-package parent ID, path in parent content-package, absolute path
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\all\target\teamRedProject.all-1.0.0-SNAPSHOT.zip,com.teamRedProject:teamRedProject.all:1.0.0-SNAPSHOT,CONTAINER,,,
 C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\all\target\teamRedProject.all-1.0.0-SNAPSHOT.zip,com.teamRedProject:teamRedProject.ui.apps:1.0.0-SNAPSHOT,APPLICATION,com.teamRedProject:teamRedProject.all:1.0.0-SNAPSHOT,/jcr_root/apps/teamRedProject-packages/application/install/teamRedProject.ui.apps-1.0.0-SNAPSHOT.zip,C:\Users\victor.orozco\AEM\Projects\Team Red Project\teamRedProject\all\target\teamRedProject.all-1.0.0-SNAPSHOT.zip!/jcr_root/apps/teamRedProject-packages/application/install/teamRedProject.ui.apps-1.0.0-SNAPSHOT.zip
