@@ -39,7 +39,7 @@
                             <link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                    fieldLabel="Link"
+                                    fieldLabel="Url"
                                     rootpath="/content/"
                                     name="./link"/>
                             <buttonText2
@@ -47,7 +47,7 @@
                                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                     fieldLabel="Button Text 2"
                                     name="./buttonText2"/>
-                            <link
+                            <link2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                     fieldLabel="Url"

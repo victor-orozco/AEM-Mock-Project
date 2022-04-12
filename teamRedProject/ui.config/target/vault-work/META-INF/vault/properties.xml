@@ -4,7 +4,7 @@
 <comment>Team Red Mock Project - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-04-10T04:15:49.418Z</entry>
+<entry key="created">2022-04-12T02:23:39.981Z</entry>
 <entry key="groupId">com.teamRedProject</entry>
 <entry key="name">teamRedProject.ui.config</entry>
 <entry key="description">UI config package for Team Red Mock Project</entry>

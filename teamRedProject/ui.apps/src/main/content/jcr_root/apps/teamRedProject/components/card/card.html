@@ -1,17 +1,22 @@
 <sly data-sly-use.model="com.teamRedProject.core.models.MultiCardModel"></sly>
-    <div class = "container"
-         data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html" id="header"
-         data-sly-test.showComponent="${model.cards.listChildren}">
-        <section id="card-list-section" class="container">
-            <ul data-sly-list.item="${model.cards.listChildren}" style="list-style: none;">
-                <li class="cmp-resources__card">
-                    <p class = "cmp-resources__card-heading" >${item.title}</p>
-                    <p class = "cmp-resources__card-text ">${item.description}</p>
-                    <div><a class="btn btn-primary fw-bold cmp-resources__card-btn" href="#${item.link}">${item.buttonText}</a></div>
-                    <div><a class="cmp-resources__card-link" href="#${item.link}" >${item.buttonText2} ></a></div>
-                </li>
-            </ul>
-        </section>
+<section class="cmp-resources" id="card-list-section"
+    data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html"
+    data-sly-test.showComponent="${model.cards.listChildren}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cmp-resources__card" data-sly-list.item="${model.cards.listChildren}">
+                            <p class = "cmp-resources__card-heading" >${item.title}</p>
+                            <p class = "cmp-resources__card-text ">${item.description}</p>
+                            <div><a class="btn btn-primary fw-bold cmp-resources__card-btn" href="${item.link}">${item.buttonText}</a></div>
+                            <div><a class="cmp-resources__card-link" href="${item.url}">${item.buttonText2} ></a></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
     </div>
+</section>
 <sly data-sly-call="${commonsTemplates.placeholder @ isEmpty=!showComponent}"></sly>
-
